@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+<<<<<<< HEAD
    LastUpgradeVersion = "2610"
+=======
+   LastUpgradeVersion = "2600"
+>>>>>>> multiplaform
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +19,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "7BD9B5DC2ED75179001979F8"
+=======
+               BlueprintIdentifier = "ADF25FA72ED95D3900C58532"
+>>>>>>> multiplaform
                BuildableName = "MalaysianRasist.app"
                BlueprintName = "MalaysianRasist"
                ReferencedContainer = "container:MalaysianRasist.xcodeproj">
@@ -29,6 +37,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+<<<<<<< HEAD
       <Testables>
          <TestableReference
             skipped = "NO"
@@ -58,6 +67,13 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+=======
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+>>>>>>> multiplaform
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -68,7 +84,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "7BD9B5DC2ED75179001979F8"
+=======
+            BlueprintIdentifier = "ADF25FA72ED95D3900C58532"
+>>>>>>> multiplaform
             BuildableName = "MalaysianRasist.app"
             BlueprintName = "MalaysianRasist"
             ReferencedContainer = "container:MalaysianRasist.xcodeproj">
@@ -85,7 +105,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "7BD9B5DC2ED75179001979F8"
+=======
+            BlueprintIdentifier = "ADF25FA72ED95D3900C58532"
+>>>>>>> multiplaform
             BuildableName = "MalaysianRasist.app"
             BlueprintName = "MalaysianRasist"
             ReferencedContainer = "container:MalaysianRasist.xcodeproj">

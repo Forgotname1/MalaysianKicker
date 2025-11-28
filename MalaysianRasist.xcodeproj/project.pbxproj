@@ -6,63 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		7BD9B5F42ED7517A001979F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BD9B5D52ED75179001979F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BD9B5DC2ED75179001979F8;
-			remoteInfo = MalaysianRasist;
-		};
-		7BD9B5FE2ED7517A001979F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BD9B5D52ED75179001979F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BD9B5DC2ED75179001979F8;
-			remoteInfo = MalaysianRasist;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		7BD9B5DD2ED75179001979F8 /* MalaysianRasist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MalaysianRasist.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD9B5F32ED7517A001979F8 /* MalaysianRasistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalaysianRasistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD9B5FD2ED7517A001979F8 /* MalaysianRasistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalaysianRasistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF25FA82ED95D3900C58532 /* MalaysianRasist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MalaysianRasist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7BD9B5DF2ED75179001979F8 /* MalaysianRasist */ = {
+		ADF25FFD2ED961EB00C58532 /* MalaysianRasist */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MalaysianRasist;
-			sourceTree = "<group>";
-		};
-		7BD9B5F62ED7517A001979F8 /* MalaysianRasistTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MalaysianRasistTests;
-			sourceTree = "<group>";
-		};
-		7BD9B6002ED7517A001979F8 /* MalaysianRasistUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MalaysianRasistUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7BD9B5DA2ED75179001979F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BD9B5F02ED7517A001979F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BD9B5FA2ED7517A001979F8 /* Frameworks */ = {
+		ADF25FA52ED95D3900C58532 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7BD9B5D42ED75179001979F8 = {
+		ADF25F9F2ED95D3900C58532 = {
 			isa = PBXGroup;
 			children = (
-				7BD9B5DF2ED75179001979F8 /* MalaysianRasist */,
-				7BD9B5F62ED7517A001979F8 /* MalaysianRasistTests */,
-				7BD9B6002ED7517A001979F8 /* MalaysianRasistUITests */,
-				7BD9B5DE2ED75179001979F8 /* Products */,
+				ADF25FFD2ED961EB00C58532 /* MalaysianRasist */,
+				ADF25FA92ED95D3900C58532 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7BD9B5DE2ED75179001979F8 /* Products */ = {
+		ADF25FA92ED95D3900C58532 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7BD9B5DD2ED75179001979F8 /* MalaysianRasist.app */,
-				7BD9B5F32ED7517A001979F8 /* MalaysianRasistTests.xctest */,
-				7BD9B5FD2ED7517A001979F8 /* MalaysianRasistUITests.xctest */,
+				ADF25FA82ED95D3900C58532 /* MalaysianRasist.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7BD9B5DC2ED75179001979F8 /* MalaysianRasist */ = {
+		ADF25FA72ED95D3900C58532 /* MalaysianRasist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BD9B6072ED7517A001979F8 /* Build configuration list for PBXNativeTarget "MalaysianRasist" */;
+			buildConfigurationList = ADF25FB32ED95D3A00C58532 /* Build configuration list for PBXNativeTarget "MalaysianRasist" */;
 			buildPhases = (
-				7BD9B5D92ED75179001979F8 /* Sources */,
-				7BD9B5DA2ED75179001979F8 /* Frameworks */,
-				7BD9B5DB2ED75179001979F8 /* Resources */,
+				ADF25FA42ED95D3900C58532 /* Sources */,
+				ADF25FA52ED95D3900C58532 /* Frameworks */,
+				ADF25FA62ED95D3900C58532 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7BD9B5DF2ED75179001979F8 /* MalaysianRasist */,
+				ADF25FFD2ED961EB00C58532 /* MalaysianRasist */,
 			);
 			name = MalaysianRasist;
 			packageProductDependencies = (
 			);
 			productName = MalaysianRasist;
-			productReference = 7BD9B5DD2ED75179001979F8 /* MalaysianRasist.app */;
+			productReference = ADF25FA82ED95D3900C58532 /* MalaysianRasist.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7BD9B5F22ED7517A001979F8 /* MalaysianRasistTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BD9B60A2ED7517A001979F8 /* Build configuration list for PBXNativeTarget "MalaysianRasistTests" */;
-			buildPhases = (
-				7BD9B5EF2ED7517A001979F8 /* Sources */,
-				7BD9B5F02ED7517A001979F8 /* Frameworks */,
-				7BD9B5F12ED7517A001979F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BD9B5F52ED7517A001979F8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7BD9B5F62ED7517A001979F8 /* MalaysianRasistTests */,
-			);
-			name = MalaysianRasistTests;
-			packageProductDependencies = (
-			);
-			productName = MalaysianRasistTests;
-			productReference = 7BD9B5F32ED7517A001979F8 /* MalaysianRasistTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7BD9B5FC2ED7517A001979F8 /* MalaysianRasistUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BD9B60D2ED7517A001979F8 /* Build configuration list for PBXNativeTarget "MalaysianRasistUITests" */;
-			buildPhases = (
-				7BD9B5F92ED7517A001979F8 /* Sources */,
-				7BD9B5FA2ED7517A001979F8 /* Frameworks */,
-				7BD9B5FB2ED7517A001979F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BD9B5FF2ED7517A001979F8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7BD9B6002ED7517A001979F8 /* MalaysianRasistUITests */,
-			);
-			name = MalaysianRasistUITests;
-			packageProductDependencies = (
-			);
-			productName = MalaysianRasistUITests;
-			productReference = 7BD9B5FD2ED7517A001979F8 /* MalaysianRasistUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7BD9B5D52ED75179001979F8 /* Project object */ = {
+		ADF25FA02ED95D3900C58532 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2610;
-				LastUpgradeCheck = 2610;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					7BD9B5DC2ED75179001979F8 = {
-						CreatedOnToolsVersion = 26.1;
-					};
-					7BD9B5F22ED7517A001979F8 = {
-						CreatedOnToolsVersion = 26.1;
-						TestTargetID = 7BD9B5DC2ED75179001979F8;
-					};
-					7BD9B5FC2ED7517A001979F8 = {
-						CreatedOnToolsVersion = 26.1;
-						TestTargetID = 7BD9B5DC2ED75179001979F8;
+					ADF25FA72ED95D3900C58532 = {
+						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 7BD9B5D82ED75179001979F8 /* Build configuration list for PBXProject "MalaysianRasist" */;
+			buildConfigurationList = ADF25FA32ED95D3900C58532 /* Build configuration list for PBXProject "MalaysianRasist" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7BD9B5D42ED75179001979F8;
+			mainGroup = ADF25F9F2ED95D3900C58532;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 7BD9B5DE2ED75179001979F8 /* Products */;
+			productRefGroup = ADF25FA92ED95D3900C58532 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7BD9B5DC2ED75179001979F8 /* MalaysianRasist */,
-				7BD9B5F22ED7517A001979F8 /* MalaysianRasistTests */,
-				7BD9B5FC2ED7517A001979F8 /* MalaysianRasistUITests */,
+				ADF25FA72ED95D3900C58532 /* MalaysianRasist */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7BD9B5DB2ED75179001979F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BD9B5F12ED7517A001979F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BD9B5FB2ED7517A001979F8 /* Resources */ = {
+		ADF25FA62ED95D3900C58532 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7BD9B5D92ED75179001979F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BD9B5EF2ED7517A001979F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BD9B5F92ED7517A001979F8 /* Sources */ = {
+		ADF25FA42ED95D3900C58532 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,21 +124,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		7BD9B5F52ED7517A001979F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BD9B5DC2ED75179001979F8 /* MalaysianRasist */;
-			targetProxy = 7BD9B5F42ED7517A001979F8 /* PBXContainerItemProxy */;
-		};
-		7BD9B5FF2ED7517A001979F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BD9B5DC2ED75179001979F8 /* MalaysianRasist */;
-			targetProxy = 7BD9B5FE2ED7517A001979F8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		7BD9B6052ED7517A001979F8 /* Debug */ = {
+		ADF25FB12ED95D3A00C58532 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +160,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = Q69YV3PH3C;
+				DEVELOPMENT_TEAM = KLPBFWHW87;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -323,17 +179,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		7BD9B6062ED7517A001979F8 /* Release */ = {
+		ADF25FB22ED95D3A00C58532 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +222,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Q69YV3PH3C;
+				DEVELOPMENT_TEAM = KLPBFWHW87;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -381,200 +235,124 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
-		7BD9B6082ED7517A001979F8 /* Debug */ = {
+		ADF25FB42ED95D3A00C58532 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q69YV3PH3C;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				INFOPLIST_KEY_CFBundleDisplayName = "Malaysian Kicker";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.forgotname1.MalaysianRasist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
-		7BD9B6092ED7517A001979F8 /* Release */ = {
+		ADF25FB52ED95D3A00C58532 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q69YV3PH3C;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				INFOPLIST_KEY_CFBundleDisplayName = "Malaysian Kicker";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.forgotname1.MalaysianRasist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		7BD9B60B2ED7517A001979F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q69YV3PH3C;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.forgotname1.MalaysianRasistTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MalaysianRasist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MalaysianRasist";
-			};
-			name = Debug;
-		};
-		7BD9B60C2ED7517A001979F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q69YV3PH3C;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.forgotname1.MalaysianRasistTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MalaysianRasist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MalaysianRasist";
-			};
-			name = Release;
-		};
-		7BD9B60E2ED7517A001979F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q69YV3PH3C;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.forgotname1.MalaysianRasistUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MalaysianRasist;
-			};
-			name = Debug;
-		};
-		7BD9B60F2ED7517A001979F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q69YV3PH3C;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.forgotname1.MalaysianRasistUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MalaysianRasist;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7BD9B5D82ED75179001979F8 /* Build configuration list for PBXProject "MalaysianRasist" */ = {
+		ADF25FA32ED95D3900C58532 /* Build configuration list for PBXProject "MalaysianRasist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BD9B6052ED7517A001979F8 /* Debug */,
-				7BD9B6062ED7517A001979F8 /* Release */,
+				ADF25FB12ED95D3A00C58532 /* Debug */,
+				ADF25FB22ED95D3A00C58532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BD9B6072ED7517A001979F8 /* Build configuration list for PBXNativeTarget "MalaysianRasist" */ = {
+		ADF25FB32ED95D3A00C58532 /* Build configuration list for PBXNativeTarget "MalaysianRasist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BD9B6082ED7517A001979F8 /* Debug */,
-				7BD9B6092ED7517A001979F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BD9B60A2ED7517A001979F8 /* Build configuration list for PBXNativeTarget "MalaysianRasistTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BD9B60B2ED7517A001979F8 /* Debug */,
-				7BD9B60C2ED7517A001979F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BD9B60D2ED7517A001979F8 /* Build configuration list for PBXNativeTarget "MalaysianRasistUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BD9B60E2ED7517A001979F8 /* Debug */,
-				7BD9B60F2ED7517A001979F8 /* Release */,
+				ADF25FB42ED95D3A00C58532 /* Debug */,
+				ADF25FB52ED95D3A00C58532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7BD9B5D52ED75179001979F8 /* Project object */;
+	rootObject = ADF25FA02ED95D3900C58532 /* Project object */;
 }
