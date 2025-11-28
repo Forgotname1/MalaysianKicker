@@ -44,13 +44,56 @@ class GameScene: SKScene {
         ilya.texture = walkFrames[0]   // Возвращаем в стойку
     }
 
-    // ---- КЛАВИАТУРА ----
+#if os(iOS)
+    // ---- ТАЧ-УПРАВЛЕНИЕ (iOS) ----
+    private var lastTouchLocation: CGPoint?
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let touch = touches.first else { return }
+        lastTouchLocation = touch.location(in: self)
+        startWalkAnimation() // стартуем анимацию при касании
+    }
+
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let touch = touches.first else { return }
+        let current = touch.location(in: self)
+        let previous = touch.previousLocation(in: self)
+        let dx = current.x - previous.x
+        let dy = current.y - previous.y
+
+        // Определяем направление преобладающего движения
+        if abs(dx) > abs(dy) {
+            if dx > 0 {
+                moveRight()
+            } else {
+                moveLeft()
+            }
+        } else {
+            if dy > 0 {
+                moveUp()
+            } else {
+                moveDown()
+            }
+        }
+    }
+
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        stopWalkAnimation() // отпустил — стоит
+        lastTouchLocation = nil
+    }
+
+    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+        stopWalkAnimation()
+        lastTouchLocation = nil
+    }
+#endif
+
+#if os(macOS)
+    // ---- КЛАВИАТУРА (macOS) ----
     override var acceptsFirstResponder: Bool { true }
 
     override func keyDown(with event: NSEvent) {
-
         startWalkAnimation()   // анимация только когда нажал кнопку
-
         switch event.keyCode {
         case 123: moveLeft()
         case 124: moveRight()
@@ -63,6 +106,7 @@ class GameScene: SKScene {
     override func keyUp(with event: NSEvent) {
         stopWalkAnimation()    // отпустил — стоит
     }
+#endif
 
     // ---- ДВИЖЕНИЕ ----
     private func moveLeft() {
