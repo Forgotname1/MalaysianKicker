@@ -45,11 +45,6 @@
 			path = MalaysianRasistUITests;
 			sourceTree = "<group>";
 		};
-		7BD9B6592ED78A80001979F8 /* work_cycle2 3 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "work_cycle2 3";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +79,6 @@
 				7BD9B5F62ED7517A001979F8 /* MalaysianRasistTests */,
 				7BD9B6002ED7517A001979F8 /* MalaysianRasistUITests */,
 				7BD9B5DE2ED75179001979F8 /* Products */,
-				7BD9B6592ED78A80001979F8 /* work_cycle2 3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +109,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				7BD9B5DF2ED75179001979F8 /* MalaysianRasist */,
-				7BD9B6592ED78A80001979F8 /* work_cycle2 3 */,
 			);
 			name = MalaysianRasist;
 			packageProductDependencies = (
@@ -410,7 +403,6 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,7 +436,6 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
